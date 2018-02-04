@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^/google_calender/ export_import.html [QSA,L]
