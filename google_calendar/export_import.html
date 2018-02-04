@@ -1,0 +1,17 @@
+<html>
+<head>
+<script>
+var interval = 1000;
+var exportUser = 0;
+var importUser = 1;
+  var exportWin = window.open("https://calendar.google.com/calendar/b/" + exportUser + "/exporticalzip");
+  setTimeout(function(){
+    var importWin = window.open("https://calendar.google.com/calendar/b/" + importUser + "/r/settings/export");
+    exportWin.close();
+  },interval);
+</script>
+</head>
+<body>
+  <h1>Export Import</h1>
+</body>
+</html
