@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^ export_import.html [QSA,L]
+RewriteRule ^test/$ export_import.html [QSA,L]
