@@ -1,3 +1,3 @@
 RewriteEngine On
 #RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ /google_calender/test.php [QSA,L]
+RewriteRule ^ export_import.html [QSA,L]
