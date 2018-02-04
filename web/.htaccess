@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^test/$ export_import.html [QSA,L]
+RewriteRule ^google_calendar/$ export_import.html [QSA,L]
