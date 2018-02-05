@@ -4,8 +4,8 @@
 <script>
 var execute = function(){
   var interval = 1000;
-  var exportUser = 1;
-  var importUser = 0;
+  var exportUser = 0;
+  var importUser = 1;
     var exportWin = window.open("https://calendar.google.com/calendar/b/" + exportUser + "/exporticalzip");
     setTimeout(function(){
       var importWin = window.open("https://calendar.google.com/calendar/b/" + importUser + "/r/settings/export");
